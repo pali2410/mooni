@@ -1,0 +1,912 @@
+[
+  {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 0
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "3e0da2bfeca0d72656044c03fdbb9765",
+      "type": 3
+    },
+    "m_Name": "toothbrush",
+    "m_EditorClassIdentifier": null,
+    "toolId": "toothbrush",
+    "displayName": "Toothbrush",
+    "prefab": {
+      "fileID": 1709254077376921,
+      "guid": "3f1b60055681bba458d1cdacab0901f6",
+      "type": 2
+    },
+    "icon": {
+      "fileID": 21300000,
+      "guid": "2d45650edf1ccb54fbed8a8b15df9012",
+      "type": 2
+    },
+    "iconRotation": 0,
+    "heldPosition": {
+      "x": 0.27,
+      "y": -0.28,
+      "z": 0.78
+    },
+    "heldEuler": {
+      "x": 25,
+      "y": 145,
+      "z": -12
+    },
+    "heldHandleEuler": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "visualScale": 3.2,
+    "contactAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "buildTool": 0,
+    "containerKg": 0.5,
+    "strokeDuration": 0.42,
+    "strokeTravel": {
+      "x": 0.01,
+      "y": 0.12
+    },
+    "cleaningWidth": 0.119645454,
+    "cleaningDepth": 0.06027648,
+    "edgeWidth": 0.03,
+    "clearInOnePass": 1,
+    "removalRate": 2.5,
+    "reach": 5.5,
+    "carryGrip": {
+      "x": 0.66,
+      "y": 0.7,
+      "z": 0.23
+    },
+    "carryEuler": {
+      "x": -3,
+      "y": 198,
+      "z": 0
+    },
+    "rightGrip": {
+      "x": 0,
+      "y": 0.037,
+      "z": 0.13
+    },
+    "rightGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    "rightGripPalm": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "carryHold": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "carryHoldAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "twoHanded": 0,
+    "leftGrip": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripPalm": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "cleaningStyle": 2,
+    "cleaningContact": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "purchaseDollars": 0,
+    "prefabPath": "GameObject/MoonCleaner_Toothbrush.prefab"
+  },
+  {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 0
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "3e0da2bfeca0d72656044c03fdbb9765",
+      "type": 3
+    },
+    "m_Name": "hand_brush",
+    "m_EditorClassIdentifier": null,
+    "toolId": "hand_brush",
+    "displayName": "Hand brush",
+    "prefab": {
+      "fileID": 1709254077376921,
+      "guid": "7eecfcfc9c9d8204c980ac2d16d63b20",
+      "type": 2
+    },
+    "icon": {
+      "fileID": 21300000,
+      "guid": "e5e722bd46ebea9468188c3b15b6f94b",
+      "type": 2
+    },
+    "iconRotation": 0,
+    "heldPosition": {
+      "x": 0.35,
+      "y": -0.32,
+      "z": 0.95
+    },
+    "heldEuler": {
+      "x": -25,
+      "y": -35,
+      "z": -12
+    },
+    "heldHandleEuler": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "visualScale": 1,
+    "contactAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "buildTool": 0,
+    "containerKg": 1,
+    "strokeDuration": 0.65,
+    "strokeTravel": {
+      "x": 0.035,
+      "y": 0.26
+    },
+    "cleaningWidth": 0.246,
+    "cleaningDepth": 0.12664855,
+    "edgeWidth": 0.025,
+    "clearInOnePass": 1,
+    "removalRate": 2.5,
+    "reach": 5.5,
+    "carryGrip": {
+      "x": 0.66,
+      "y": 0.7,
+      "z": 0.23
+    },
+    "carryEuler": {
+      "x": 3,
+      "y": 18,
+      "z": 0
+    },
+    "rightGrip": {
+      "x": 0,
+      "y": 0.12,
+      "z": -0.29
+    },
+    "rightGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "rightGripPalm": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "carryHold": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "carryHoldAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "twoHanded": 0,
+    "leftGrip": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripPalm": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "cleaningStyle": 2,
+    "cleaningContact": {
+      "x": 0,
+      "y": 0,
+      "z": 0.05
+    },
+    "purchaseDollars": 10,
+    "prefabPath": "GameObject/hand_brush.prefab"
+  },
+  {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 0
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "3e0da2bfeca0d72656044c03fdbb9765",
+      "type": 3
+    },
+    "m_Name": "household_broom",
+    "m_EditorClassIdentifier": null,
+    "toolId": "household_broom",
+    "displayName": "Household broom",
+    "prefab": {
+      "fileID": 1709254077376921,
+      "guid": "7dcd6111d4948e04888bb3329280d4ea",
+      "type": 2
+    },
+    "icon": {
+      "fileID": 21300000,
+      "guid": "c856fcdd669529f479b59e5b01fabd57",
+      "type": 2
+    },
+    "iconRotation": 0,
+    "heldPosition": {
+      "x": -0.04,
+      "y": -0.415,
+      "z": 1.17
+    },
+    "heldEuler": {
+      "x": -44,
+      "y": -34.5,
+      "z": 0
+    },
+    "heldHandleEuler": {
+      "x": -60,
+      "y": 0,
+      "z": 0
+    },
+    "visualScale": 1,
+    "contactAxis": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "buildTool": 0,
+    "containerKg": 3,
+    "strokeDuration": 0.86,
+    "strokeTravel": {
+      "x": 0.08,
+      "y": 0.48
+    },
+    "cleaningWidth": 0.4392116,
+    "cleaningDepth": 0.102067694,
+    "edgeWidth": 0.04,
+    "clearInOnePass": 1,
+    "removalRate": 2.5,
+    "reach": 5.5,
+    "carryGrip": {
+      "x": 0.46,
+      "y": 0.98,
+      "z": 0.12
+    },
+    "carryEuler": {
+      "x": 0,
+      "y": 90,
+      "z": 53.130104
+    },
+    "rightGrip": {
+      "x": 0,
+      "y": 0.7,
+      "z": 0
+    },
+    "rightGripAxis": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "rightGripPalm": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    "carryHold": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "carryHoldAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "twoHanded": 0,
+    "leftGrip": {
+      "x": 0,
+      "y": 0.85,
+      "z": 0
+    },
+    "leftGripAxis": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "leftGripPalm": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "cleaningStyle": 0,
+    "cleaningContact": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "purchaseDollars": 25,
+    "prefabPath": "GameObject/household_broom.prefab"
+  },
+  {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 0
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "3e0da2bfeca0d72656044c03fdbb9765",
+      "type": 3
+    },
+    "m_Name": "wide_broom",
+    "m_EditorClassIdentifier": null,
+    "toolId": "wide_broom",
+    "displayName": "Wide broom",
+    "prefab": {
+      "fileID": 1709254077376921,
+      "guid": "f5329ca04cb0b064683bb39b6adc2c96",
+      "type": 2
+    },
+    "icon": {
+      "fileID": 21300000,
+      "guid": "7f6fa3193b8943843b158be2b092f901",
+      "type": 2
+    },
+    "iconRotation": 0,
+    "heldPosition": {
+      "x": -0.04,
+      "y": -0.415,
+      "z": 1.17
+    },
+    "heldEuler": {
+      "x": -44,
+      "y": -34.5,
+      "z": 0
+    },
+    "heldHandleEuler": {
+      "x": -60,
+      "y": 0,
+      "z": 0
+    },
+    "visualScale": 1,
+    "contactAxis": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "buildTool": 0,
+    "containerKg": 6,
+    "strokeDuration": 1,
+    "strokeTravel": {
+      "x": 0.1,
+      "y": 0.55
+    },
+    "cleaningWidth": 0.6588174,
+    "cleaningDepth": 0.10206972,
+    "edgeWidth": 0.04,
+    "clearInOnePass": 1,
+    "removalRate": 2.5,
+    "reach": 5.5,
+    "carryGrip": {
+      "x": 0.54,
+      "y": 0.98,
+      "z": 0.12
+    },
+    "carryEuler": {
+      "x": 0,
+      "y": 90,
+      "z": 53.130104
+    },
+    "rightGrip": {
+      "x": 0,
+      "y": 0.7,
+      "z": 0
+    },
+    "rightGripAxis": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "rightGripPalm": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    "carryHold": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "carryHoldAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "twoHanded": 0,
+    "leftGrip": {
+      "x": 0,
+      "y": 0.85,
+      "z": 0
+    },
+    "leftGripAxis": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "leftGripPalm": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "cleaningStyle": 0,
+    "cleaningContact": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "purchaseDollars": 75,
+    "prefabPath": "GameObject/wide_broom.prefab"
+  },
+  {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 0
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "3e0da2bfeca0d72656044c03fdbb9765",
+      "type": 3
+    },
+    "m_Name": "extra_wide_broom",
+    "m_EditorClassIdentifier": null,
+    "toolId": "extra_wide_broom",
+    "displayName": "Extra wide broom",
+    "prefab": {
+      "fileID": 1709254077376921,
+      "guid": "5d14e58ea7a5a91439f9a6dd0a696aa6",
+      "type": 2
+    },
+    "icon": {
+      "fileID": 21300000,
+      "guid": "98ec343ea58f8c04db311ae1687853a6",
+      "type": 2
+    },
+    "iconRotation": 0,
+    "heldPosition": {
+      "x": -0.04,
+      "y": -0.415,
+      "z": 1.17
+    },
+    "heldEuler": {
+      "x": -44,
+      "y": -34.5,
+      "z": 0
+    },
+    "heldHandleEuler": {
+      "x": -60,
+      "y": 0,
+      "z": 0
+    },
+    "visualScale": 1,
+    "contactAxis": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "buildTool": 0,
+    "containerKg": 12,
+    "strokeDuration": 1.12,
+    "strokeTravel": {
+      "x": 0.12,
+      "y": 0.6
+    },
+    "cleaningWidth": 0.9882261,
+    "cleaningDepth": 0.10207102,
+    "edgeWidth": 0.04,
+    "clearInOnePass": 1,
+    "removalRate": 2.5,
+    "reach": 5.5,
+    "carryGrip": {
+      "x": 0.43,
+      "y": 1.07,
+      "z": 0.26
+    },
+    "carryEuler": {
+      "x": 0,
+      "y": -90,
+      "z": 0
+    },
+    "rightGrip": {
+      "x": 0.09,
+      "y": 0.9505,
+      "z": 0
+    },
+    "rightGripAxis": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "rightGripPalm": {
+      "x": 0,
+      "y": -0.4472136,
+      "z": 0.8944272
+    },
+    "carryHold": {
+      "x": 0,
+      "y": 0.86,
+      "z": 0
+    },
+    "carryHoldAxis": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "twoHanded": 0,
+    "leftGrip": {
+      "x": -0.13,
+      "y": 0.9505,
+      "z": 0
+    },
+    "leftGripAxis": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripPalm": {
+      "x": 0,
+      "y": -0.35,
+      "z": -0.94
+    },
+    "cleaningStyle": 1,
+    "cleaningContact": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "purchaseDollars": 150,
+    "prefabPath": "GameObject/extra_wide_broom.prefab"
+  },
+  {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 0
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "3e0da2bfeca0d72656044c03fdbb9765",
+      "type": 3
+    },
+    "m_Name": "building_tool",
+    "m_EditorClassIdentifier": null,
+    "toolId": "building_tool",
+    "displayName": "Building tool",
+    "prefab": {
+      "fileID": 1709254077376921,
+      "guid": "2c940e366b3775347ac7e0d2660784dd",
+      "type": 2
+    },
+    "icon": {
+      "fileID": 21300000,
+      "guid": "2c0cc231f4e69c841ba1970f5dab00b5",
+      "type": 2
+    },
+    "iconRotation": 0,
+    "heldPosition": {
+      "x": 0.25,
+      "y": -0.29,
+      "z": 0.44
+    },
+    "heldEuler": {
+      "x": 12,
+      "y": -34,
+      "z": 10
+    },
+    "heldHandleEuler": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "visualScale": 1,
+    "contactAxis": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "buildTool": 1,
+    "containerKg": 0,
+    "strokeDuration": 0.75,
+    "strokeTravel": {
+      "x": 0.12,
+      "y": 0.09
+    },
+    "cleaningWidth": 0.05,
+    "cleaningDepth": 0.05,
+    "edgeWidth": 0.035,
+    "clearInOnePass": 1,
+    "removalRate": 0.1,
+    "reach": 5.5,
+    "carryGrip": {
+      "x": 0.46,
+      "y": 0.84,
+      "z": 0.36
+    },
+    "carryEuler": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rightGrip": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rightGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rightGripPalm": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "carryHold": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "carryHoldAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "twoHanded": 0,
+    "leftGrip": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripPalm": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "cleaningStyle": 0,
+    "cleaningContact": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "purchaseDollars": 50,
+    "prefabPath": "GameObject/building_tool.prefab"
+  },
+  {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 0
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "3e0da2bfeca0d72656044c03fdbb9765",
+      "type": 3
+    },
+    "m_Name": "nailbrush",
+    "m_EditorClassIdentifier": null,
+    "toolId": "nailbrush",
+    "displayName": "Nail brush",
+    "prefab": {
+      "fileID": 1709254077376921,
+      "guid": "b7ecfebc8d2f2c34880e5d65404b0284",
+      "type": 2
+    },
+    "icon": {
+      "fileID": 21300000,
+      "guid": "e0ead36325b144d4cb303158c6b9b5ec",
+      "type": 2
+    },
+    "iconRotation": 0,
+    "heldPosition": {
+      "x": 0.3,
+      "y": -0.3,
+      "z": 0.85
+    },
+    "heldEuler": {
+      "x": -25,
+      "y": -35,
+      "z": -12
+    },
+    "heldHandleEuler": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "visualScale": 1.3,
+    "contactAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "buildTool": 0,
+    "containerKg": 0.75,
+    "strokeDuration": 0.55,
+    "strokeTravel": {
+      "x": 0.025,
+      "y": 0.2
+    },
+    "cleaningWidth": 0.18909785,
+    "cleaningDepth": 0.10244506,
+    "edgeWidth": 0.025,
+    "clearInOnePass": 1,
+    "removalRate": 2.5,
+    "reach": 5.5,
+    "carryGrip": {
+      "x": 0.47,
+      "y": 0.84,
+      "z": 0.1
+    },
+    "carryEuler": {
+      "x": 0,
+      "y": 0,
+      "z": -90
+    },
+    "rightGrip": {
+      "x": 0,
+      "y": 0.055,
+      "z": 0
+    },
+    "rightGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "rightGripPalm": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    "carryHold": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "carryHoldAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "twoHanded": 0,
+    "leftGrip": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripAxis": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "leftGripPalm": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "cleaningStyle": 2,
+    "cleaningContact": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "purchaseDollars": 5,
+    "prefabPath": "GameObject/nailbrush.prefab"
+  }
+]

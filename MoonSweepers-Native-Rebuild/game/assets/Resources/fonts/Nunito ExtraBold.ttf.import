@@ -1,0 +1,36 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://divdv5qw6gw3b"
+path="res://.godot/imported/Nunito ExtraBold.ttf-ee0cb8216b36a132b23f077d7bc0a03e.fontdata"
+
+[deps]
+
+source_file="res://assets/Resources/fonts/Nunito ExtraBold.ttf"
+dest_files=["res://.godot/imported/Nunito ExtraBold.ttf-ee0cb8216b36a132b23f077d7bc0a03e.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+modulate_color_glyphs=false
+hinting=3
+subpixel_positioning=4
+keep_rounding_remainders=true
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

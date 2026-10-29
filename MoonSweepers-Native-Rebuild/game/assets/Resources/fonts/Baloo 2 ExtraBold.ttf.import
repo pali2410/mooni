@@ -1,0 +1,36 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://dxnqpw4qbxh0n"
+path="res://.godot/imported/Baloo 2 ExtraBold.ttf-e45b6c339fe179c6e091f633c10d98b2.fontdata"
+
+[deps]
+
+source_file="res://assets/Resources/fonts/Baloo 2 ExtraBold.ttf"
+dest_files=["res://.godot/imported/Baloo 2 ExtraBold.ttf-e45b6c339fe179c6e091f633c10d98b2.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+modulate_color_glyphs=false
+hinting=3
+subpixel_positioning=4
+keep_rounding_remainders=true
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-29",
+  "version": "0.3.2-world",
+  "status": "reference_based_reconstruction_incomplete_full_parity",
+  "full_original_game_recreated": false,
+  "complete_original_source_available": false,
+  "unlimited_money_mode": false,
+  "starter_balance": 0,
+  "starter_owned_tools": [
+    "Toothbrush"
+  ],
+  "asset_counts": {
+    "renderable_meshes": 2133,
+    "prefabs": 377,
+    "textures": 938,
+    "fonts": 19,
+    "preserved_animation_clips": 6,
+    "character_skinned_vertices": 21771,
+    "character_bind_matrices": 58
+  },
+  "implemented_changes": [
+    "original menu scene geometry/camera and source logo/fonts",
+    "dark sidebar and orange hazard stripe",
+    "five local save slots",
+    "bottom tool/container/hotbar/wallet HUD; prototype top banner removed",
+    "normal earned-money progression and original tool prices",
+    "starter equipment and ownership locks",
+    "continuous finite-mass deformable dust surface",
+    "source movement gravity/speed/jump settings",
+    "exact prefab reference IDs and hierarchy",
+    "source material resources/tiling/normal maps",
+    "astronaut skin/binds and source visor-eye atlas",
+    "recovered sky background and wallet icon",
+    "215 original captured base/terrain instances and material slots",
+    "31 actual original PC collision definitions",
+    "original sliding-door travel/duration; player capsule passes open doorway",
+    "actual terrain raycast cleaning contact and sampled terrain heights",
+    "safe position migration from prototype world; earned progress retained",
+    "source 0.62 m step-height clearance and original 30-degree slope limit",
+    "normalize JSON equipment IDs so purchased tools survive reload"
+  ],
+  "unfinished": [
+    "original humanoid idle/walk/jump/sweep retargeting and IK",
+    "exact source world/terrain generation and all regions",
+    "full collider/rigid-body and vehicle physics",
+    "complete original custom shaders/postprocessing/lighting",
+    "all upgrade-tree effects",
+    "factory/conveyor/power/robot operation",
+    "complete contracts/story/manual/extra activities",
+    "appearance editor and complete settings",
+    "online multiplayer",
+    "full UI/interaction parity and comprehensive tablet/controller regression"
+  ],
+  "world_capture": {
+    "instances": 215,
+    "terrain_chunks": 4,
+    "original_colliders": 31,
+    "sliding_doors": 1,
+    "unresolved": [],
+    "terrain_height_range": [
+      -0.5,
+      -0.49999999999999994
+    ],
+    "excluded": "Player, saved robots/factories/belts/canisters, separate saved dust sheets, dynamic personal displays",
+    "limitations": "Static scene geometry and converted materials only; original Unity shaders and all gameplay systems are not reconstructed."
+  },
+  "apk": {
+    "version": "0.3.2-world",
+    "architecture": "arm64-v8a",
+    "bytes": 378859118,
+    "sha256": "2454b3f9f991478ae538a9a76c4d3062334d5fd34d748047ae98b51f8d901a16",
+    "download": "https://github.com/pali2410/mooni/releases/tag/v0.3.2"
+  },
+  "validation": {
+    "native_build": "built, installed and APK SHA-256 matched",
+    "tablet": "Xiaomi Pad 8, Android 16, ARM64",
+    "latest_isolated_checks": [
+      "original world mesh/collider import",
+      "door open/close and capsule entry",
+      "entrance steps",
+      "terrain raycast",
+      "dust mass conservation",
+      "earned deposits",
+      "purchase deduction and save/reload"
+    ],
+    "earlier_tablet_gameplay_check": {
+      "version": "0.3.0-world",
+      "dust_collected_kg": 0.5,
+      "dollars_earned": 0.5
+    },
+    "physical_controller": "not tested",
+    "complete_original_physics": "not achieved"
+  }
+}

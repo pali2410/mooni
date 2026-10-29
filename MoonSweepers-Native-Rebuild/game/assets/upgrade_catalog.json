@@ -1,0 +1,128 @@
+{
+  "m_ObjectHideFlags": 0,
+  "m_CorrespondingSourceObject": {
+    "fileID": 0
+  },
+  "m_PrefabInstance": {
+    "fileID": 0
+  },
+  "m_PrefabAsset": {
+    "fileID": 0
+  },
+  "m_GameObject": {
+    "fileID": 0
+  },
+  "m_Enabled": 1,
+  "m_EditorHideFlags": 0,
+  "m_Script": {
+    "fileID": 11500000,
+    "guid": "5a50d163f2469c570e9c314d78f1425d",
+    "type": 3
+  },
+  "m_Name": "MoonUpgrades",
+  "m_EditorClassIdentifier": null,
+  "tools": [
+    {
+      "tool": {
+        "fileID": 11400000,
+        "guid": "688007b3540752340bd867ebde3c4658",
+        "type": 2
+      },
+      "purchaseDollars": 0,
+      "legacyUpgradeDollars": 0
+    },
+    {
+      "tool": {
+        "fileID": 11400000,
+        "guid": "91b27aa93ba880248b1c0de80611de88",
+        "type": 2
+      },
+      "purchaseDollars": 10,
+      "legacyUpgradeDollars": "0a0000001900000032000000"
+    },
+    {
+      "tool": {
+        "fileID": 11400000,
+        "guid": "5bbb5ce77b10ffe408231afe61686cc7",
+        "type": 2
+      },
+      "purchaseDollars": 25,
+      "legacyUpgradeDollars": 140000003200000064000000
+    },
+    {
+      "tool": {
+        "fileID": 11400000,
+        "guid": "bb5996dac06d32543a447bdd1f0601cd",
+        "type": 2
+      },
+      "purchaseDollars": 75,
+      "legacyUpgradeDollars": "3200000064000000c8000000"
+    },
+    {
+      "tool": {
+        "fileID": 11400000,
+        "guid": "7e5d897ceb85362459d57d87413e3188",
+        "type": 2
+      },
+      "purchaseDollars": 150,
+      "legacyUpgradeDollars": "64000000c800000090010000"
+    },
+    {
+      "tool": {
+        "fileID": 11400000,
+        "guid": "da69e4169044e75498d8dffe444ec82d",
+        "type": 2
+      },
+      "purchaseDollars": 50,
+      "legacyUpgradeDollars": null
+    },
+    {
+      "tool": {
+        "fileID": 11400000,
+        "guid": "9054ee63df58b0e4fb356c669d05baab",
+        "type": 2
+      },
+      "purchaseDollars": 5,
+      "legacyUpgradeDollars": null
+    }
+  ],
+  "containers": [
+    {
+      "capacityMultiplier": 2,
+      "dollarsPerKilogram": 5,
+      "minimumDollars": 5
+    },
+    {
+      "capacityMultiplier": 4,
+      "dollarsPerKilogram": 5,
+      "minimumDollars": 5
+    },
+    {
+      "capacityMultiplier": 8,
+      "dollarsPerKilogram": 5,
+      "minimumDollars": 5
+    }
+  ],
+  "bags": [
+    {
+      "capacityMultiplier": 2,
+      "priceDollars": 5
+    },
+    {
+      "capacityMultiplier": 5,
+      "priceDollars": 15
+    },
+    {
+      "capacityMultiplier": 10,
+      "priceDollars": 40
+    },
+    {
+      "capacityMultiplier": 25,
+      "priceDollars": 100
+    },
+    {
+      "capacityMultiplier": 50,
+      "priceDollars": 250
+    }
+  ]
+}

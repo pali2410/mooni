@@ -1,0 +1,16 @@
+**/.godot/
+**/__pycache__/
+**/tools/
+**/builds/
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.apk
+**/*.idsig
+**/.env*
+**/backups/
+**/python-deps/
+MoonSweepers-Android-Recovery/
+MoonSweepers-Native-Rebuild/analysis/*
+!MoonSweepers-Native-Rebuild/analysis/WORLD-REFERENCE-2026-10-29.md
+!MoonSweepers-Native-Rebuild/analysis/captured-world-import.json

@@ -1,0 +1,13 @@
+{
+  "instances": 215,
+  "terrain_chunks": 4,
+  "original_colliders": 31,
+  "sliding_doors": 1,
+  "unresolved": [],
+  "terrain_height_range": [
+    -0.5,
+    -0.49999999999999994
+  ],
+  "excluded": "Player, saved robots/factories/belts/canisters, separate saved dust sheets, dynamic personal displays",
+  "limitations": "Static scene geometry and converted materials only; original Unity shaders and all gameplay systems are not reconstructed."
+}
